@@ -1,7 +1,7 @@
 import { Button, ButtonCadastro } from "../../Components/Button"
 import { InputField } from "../../Components/InputField";
-import { Container, Tittle, ContentForms, Tittle2} from "./style";
-import {}
+import { Container, Tittle, ContentForms, Tittle2, ContainerText, StyleText} from "./style";
+
 export const Login = () => {
 
     const handleLogin = () => {
@@ -11,13 +11,18 @@ export const Login = () => {
     alert("Cadastro");
     };
 
-
     return (
+
     <Container>
-            <ContainerTexto>
-            <Tittle>Facebook</Tittle>
-            <StyledText>Conecte-se com sua conta do Facebook</StyledText>
-            </ContainerTexto>
+        <ContainerText>
+        <Tittle>Facebook</Tittle>
+            <StyleText>
+                O Facebook ajuda você a se conectar e 
+                compartilhar com as pessoas que 
+                fazem parte da sua vida
+            </StyleText>
+            </ContainerText>
+
             
         <ContentForms>
         <InputField propsplaceholder="Email ou Telefone" propstype="email" />

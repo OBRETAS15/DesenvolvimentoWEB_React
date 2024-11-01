@@ -23,7 +23,7 @@ export const ContentForms = styled.div`
 `;
 
 export const Tittle = styled.h1`
-    font-size: 45px;
+    font-size: 60px;
     color: #0f57e6;
     text-align: left;
     margin: 50px;
@@ -31,18 +31,28 @@ export const Tittle = styled.h1`
     width: 100%; 
 `;
 
-export const StyledText = styled.p`
-    font-size: 16px;
-    color: #000;
-    margin: 0;
+export const ContainerText = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: -150px; 
+    width: 100%;
 `;
 
+export const StyleText = styled.h3`
+font-size: 16px;
+    color: #555;
+    text-align: left;
+    margin: 0;
+    width: 100%; 
+    padding: 0 20px;
+`;
 export const Tittle2 = styled.p`
     font-size: "14px";
     margin-top: "10px"; 
     text-align: "center";
     a{
-        color: blue;
+        color: #0000ff;
     }
 `;
 
