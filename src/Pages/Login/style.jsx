@@ -40,7 +40,7 @@ export const ContainerText = styled.div`
 `;
 
 export const StyleText = styled.h3`
-font-size: 16px;
+font-size: 25px;
     color: #555;
     text-align: left;
     margin: 0;
